@@ -1,0 +1,44 @@
+.hero__section {
+    background-color: $first-color;
+    width: 100%;
+    height: fit-content;
+    animation-name: heroanimation;
+    padding-bottom: 50px;
+    animation-duration: 15s;
+    margin-top: 115px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    &--title {
+        font-size: 50px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    &--subtitle {
+        font-size: 35px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    &--description {
+        font-size: 30px;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero__section {
+        height: fit-content;
+    }
+}

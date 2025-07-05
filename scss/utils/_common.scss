@@ -1,0 +1,33 @@
+main {
+    margin-top: 80px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #000000ef;
+    font-family: $font-family;
+    margin: 0;
+    overflow-y: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}

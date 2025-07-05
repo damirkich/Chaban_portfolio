@@ -1,0 +1,68 @@
+.whatiuse__section {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 50px;
+
+    &--title {
+        font-size: 60px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    &--item {
+        margin-top: 50px;
+        border-radius: 20px;
+        background-color: rgba(58, 58, 58, 0.3);
+        border: 2px solid white;
+        padding: 10px;
+        width: 300px;
+        height: 300px;
+        transition: 0.3s ease;
+
+        &-pic {
+            content: '';
+            position: relative;
+            width: 100px;
+            height: 100px;
+            left:  32%;
+
+            top: 10px;
+        }
+
+        &-title {
+            font-size: 25px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        &-desc {
+            font-size: 18px;
+            font-weight: 500;
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        &:hover {
+            background-color: $first-color;
+            transform: scale(1.05);
+        }
+    }
+
+    &--list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 20px;
+    }
+}
+
+.whatiuse__section--item:hover .whatiuse__section--item-title,
+.whatiuse__section--item:hover .whatiuse__section--item-desc {
+  color: black;
+}

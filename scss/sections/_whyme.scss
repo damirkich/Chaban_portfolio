@@ -1,0 +1,59 @@
+.whyme__section {
+    height: fit-content;
+    width: 100%;
+
+        &--title {
+            font-size: 60px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            margin-top: 100px;
+
+        }
+
+        &--item {
+            margin-top: 50px;
+            border-radius: 20px;
+            background-color: rgba(79, 79, 79, 0.3);
+            border: 2px solid white;
+            width: 250px;
+            height: 200px;
+            padding-left: 10px;
+            padding-right: 10px;
+            transition: 0.3s ease;
+
+            &-title {
+                font-size: 25px;
+                font-weight: 700;
+                color: white;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            &-desc {
+                font-size: 18px;
+                font-weight: 500;
+                color: white;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            &:hover {
+                background-color: $first-color;
+                transform: scale(1.05);
+            }
+        }
+
+        &--list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 20px;
+        }
+}
+
+.whyme__section--item:hover .whyme__section--item-title,
+.whyme__section--item:hover .whyme__section--item-desc {
+  color: black;
+}

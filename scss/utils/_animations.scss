@@ -1,0 +1,144 @@
+@keyframes heroanimation {
+    0% {
+        background-color: $first-color;
+    }
+    33% {
+        background-color: rgb(56, 66, 160);
+    }
+    66% {
+        background-color: rgb(47, 114, 240);
+    }
+
+    99% {
+        background-color: $first-color;
+    }
+}
+
+@keyframes skillsanimation {
+    0% {
+        transform:rotateX('30deg')
+    }
+    50% {
+        transform:rotateX('0deg')
+    }
+    100% {
+        transform:rotateX('30deg')
+    }
+}
+
+@keyframes modalan {
+    0% {
+        color: $first-color;
+        transform: scale(1);
+    }
+
+    50% {
+        color: limegreen;
+        transform: scale(1.1);
+    }
+
+    100% {
+        color: $first-color;
+        transform: scale(1);
+    }
+}
+
+@keyframes portfanim {
+    0% {
+        background-color: #a5d1ef;
+    }
+
+    33% {
+        background-color: #6a9fca;
+    }
+
+    66% {
+        background-color: #467691;
+    }
+
+    100% {
+        background-color: #a5d1ef;
+    }
+}
+
+@keyframes bakeranim {
+    0% {
+        background-color: #f0c27b;
+    }
+
+    33% {
+        background-color: #8d784a;
+    }
+
+    66% {
+        background-color: #a57818;
+    }
+
+    100% {
+        background-color: #f0c27b;
+    }
+}
+
+@keyframes minanim {
+    0% {
+        background-color: #60747c;
+    }
+
+    33% {
+        background-color: #3b4c54;
+    }
+
+    66% {
+        background-color: #718895;
+    }
+
+    100% {
+        background-color: #60747c;
+    }
+}
+
+@keyframes bmenuanim {
+    0% {
+        background-color: rgb(0, 0, 0);
+    }
+
+    10% {
+        background-color: rgb(1, 1, 1);
+    }
+
+    20% {
+        background-color: rgb(5, 5, 5);
+    }
+
+    30% {
+        background-color: rgb(10, 10, 10);
+    }
+
+    40% {
+        background-color: rgb(20, 20, 20);
+    }
+
+    50% {
+        background-color: rgb(30, 30, 30);
+    }
+
+    60% {
+        background-color: rgb(20, 20, 20);
+    }
+
+    70% {
+        background-color: rgb(10, 10, 10);
+    }
+
+    80% {
+        background-color: rgb(5, 5, 5);
+    }
+
+    90% {
+        background-color: rgb(1, 1, 1);
+    }
+
+    100% {
+        background-color: rgb( 0, 0, 0);
+    }
+}

@@ -1,0 +1,34 @@
+.aboutme {
+    width: 100%;
+    margin-top: 150px;
+
+    &__titlepage {
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    &__parapage {
+        content: '';
+        position: relative;
+        font-size: 25px;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    &__subtitlepage {
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
