@@ -1,17 +1,19 @@
 .footer {
     width: 100%;
     background-color: $first-color;
-    height: fit-content;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 
     &__text {
         content: '';
-        position: relative;
         font-size: 20px;
         font-weight: 400;
         color: white;
         text-align: left;
         padding: 20px 0;
-        top: 40px;
+        margin-top: 0;
         left: 10px;
     }
 
@@ -22,7 +24,6 @@
         justify-content: right;
         align-items: center;
         height: 100%;
-        bottom: 30px;
     }
 
     &__socials--icon-discord {
@@ -65,21 +66,19 @@
 
 @media (max-width: 768px) {
   .footer {
-    position: relative;
-    margin-top: 20px;
     height: 190px;
     padding-bottom: 20px;
 
 
     &__text {
-        top: 50px;
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
     }
 
     &__socials {
         flex-direction: column;
-        top: -90px;
+        top: 15px;
         align-items: flex-end;
         margin-left: auto;
     }   
