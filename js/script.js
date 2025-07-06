@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const backdrop = document.querySelector('.backdrop');
     const modal = document.querySelector('.modal');
 
-    console.log("Elements:", {btnsOpenModal, backdrop, modal}); 
+    console.log("Elements:", {btnsOpenModal, backdrop, modal});
 
     btnsOpenModal.forEach(btn => {
         btn.addEventListener('click', function(e) {
