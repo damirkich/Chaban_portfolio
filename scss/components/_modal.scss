@@ -49,6 +49,8 @@
   height: 40px;
   cursor: pointer;
     transition: 1s;
+    animation: btnanim 3s ease 1.6s infinite;
+    
 }
 
 .modal-title {
@@ -78,6 +80,7 @@
   width: 150px;
   left: 100px;
   transition: 1s;
+  animation: btnanim 3s ease infinite;
 }
 
 .modal-desc {

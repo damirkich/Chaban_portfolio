@@ -28,17 +28,14 @@
 
 @keyframes modalan {
     0% {
-        color: $first-color;
         transform: scale(1);
     }
 
     50% {
-        color: limegreen;
         transform: scale(1.1);
     }
 
     100% {
-        color: $first-color;
         transform: scale(1);
     }
 }
@@ -140,5 +137,19 @@
 
     100% {
         background-color: rgb( 0, 0, 0);
+    }
+}
+
+@keyframes btnanim {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
     }
 }
